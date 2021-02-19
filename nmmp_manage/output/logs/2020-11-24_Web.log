@@ -1,0 +1,17 @@
+2020-11-24 13:59:00  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="username"]')可见！
+2020-11-24 13:59:00  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-11-24 13:59:00.386523，结束等待时间：2020-11-24 13:59:00.386523，等待时长为：0:00:00！
+2020-11-24 13:59:00  INFO SeleniumUtils.py get_element [ line:64 ] 查找登录页面_输入用户名中的元素('xpath', '//*[@id="username"]')
+2020-11-24 13:59:05  ERROR SeleniumUtils.py get_element [ line:71 ] 查找元素失败！
+Traceback (most recent call last):
+  File "D:\files\project\nemmp\nmmp_utils\selenium\SeleniumUtils.py", line 66, in get_element
+    ele = self.driver.find_element(*loc)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="username"]"}
+  (Session info: chrome=85.0.4183.83)
+
+2020-11-24 13:59:05  INFO SeleniumUtils.py save_web_screenshot [ line:32 ] 网页截图成功！图片存储在：D:\files\project\nemmp\nmmp_manage\output/screenshots/2020-11-24 13_59_05-登录页面_输入用户名.png!

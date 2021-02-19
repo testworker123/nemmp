@@ -1,0 +1,233 @@
+2021-01-15 15:30:58  INFO test_1_login.py test_login_1_error [ line:53 ] *********登录用例：异常场景-登录失败*********
+2021-01-15 15:30:58  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="username"]')可见！
+2021-01-15 15:30:58  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2021-01-15 15:30:58.477415，结束等待时间：2021-01-15 15:30:58.477415，等待时长为：0:00:00！
+2021-01-15 15:30:58  INFO SeleniumUtils.py get_element [ line:64 ] 查找登录页面_输入用户名中的元素('xpath', '//*[@id="username"]')
+2021-01-15 15:30:58  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="c88ea16345d284b8aeb3f10fe0c61c42", element="44c95082-faff-4943-ad17-c4d623106229")>元素成功！
+2021-01-15 15:30:58  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="username"]')可见！
+2021-01-15 15:30:58  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2021-01-15 15:30:58.487388，结束等待时间：2021-01-15 15:30:58.487388，等待时长为：0:00:00！
+2021-01-15 15:30:58  INFO SeleniumUtils.py get_element [ line:64 ] 查找中的元素('xpath', '//*[@id="username"]')
+2021-01-15 15:30:58  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="c88ea16345d284b8aeb3f10fe0c61c42", element="44c95082-faff-4943-ad17-c4d623106229")>元素成功！
+2021-01-15 15:30:58  INFO SeleniumUtils.py clear_data [ line:262 ] 清空输入框成功！
+2021-01-15 15:30:58  INFO SeleniumUtils.py input_text [ line:117 ] 给元素('xpath', '//*[@id="username"]')输入文本内容：
+2021-01-15 15:30:58  INFO SeleniumUtils.py input_text [ line:120 ] 文本输入成功！
+2021-01-15 15:30:58  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="form"]/div/div[2]/input[2]')可见！
+2021-01-15 15:30:58  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2021-01-15 15:30:58.566178，结束等待时间：2021-01-15 15:30:58.566178，等待时长为：0:00:00！
+2021-01-15 15:30:58  INFO SeleniumUtils.py get_element [ line:64 ] 查找登录页面_输入密码中的元素('xpath', '//*[@id="form"]/div/div[2]/input[2]')
+2021-01-15 15:30:58  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="c88ea16345d284b8aeb3f10fe0c61c42", element="52b9dfda-98f0-4f18-9a3e-9378516ce018")>元素成功！
+2021-01-15 15:30:58  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="form"]/div/div[2]/input[2]')可见！
+2021-01-15 15:30:58  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2021-01-15 15:30:58.578146，结束等待时间：2021-01-15 15:30:58.578146，等待时长为：0:00:00！
+2021-01-15 15:30:58  INFO SeleniumUtils.py get_element [ line:64 ] 查找中的元素('xpath', '//*[@id="form"]/div/div[2]/input[2]')
+2021-01-15 15:30:58  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="c88ea16345d284b8aeb3f10fe0c61c42", element="52b9dfda-98f0-4f18-9a3e-9378516ce018")>元素成功！
+2021-01-15 15:30:58  INFO SeleniumUtils.py clear_data [ line:262 ] 清空输入框成功！
+2021-01-15 15:30:58  INFO SeleniumUtils.py input_text [ line:117 ] 给元素('xpath', '//*[@id="form"]/div/div[2]/input[2]')输入文本内容：
+2021-01-15 15:30:58  INFO SeleniumUtils.py input_text [ line:120 ] 文本输入成功！
+2021-01-15 15:30:58  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="validateCode"]')可见！
+2021-01-15 15:30:58  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2021-01-15 15:30:58.639980，结束等待时间：2021-01-15 15:30:58.639980，等待时长为：0:00:00！
+2021-01-15 15:30:58  INFO SeleniumUtils.py get_element [ line:64 ] 查找登录页面_输入验证码中的元素('xpath', '//*[@id="validateCode"]')
+2021-01-15 15:30:58  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="c88ea16345d284b8aeb3f10fe0c61c42", element="9ae10b5d-98c1-4d64-a8c0-88b5588d2ce4")>元素成功！
+2021-01-15 15:30:58  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="validateCode"]')可见！
+2021-01-15 15:30:58  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2021-01-15 15:30:58.653943，结束等待时间：2021-01-15 15:30:58.653943，等待时长为：0:00:00！
+2021-01-15 15:30:58  INFO SeleniumUtils.py get_element [ line:64 ] 查找中的元素('xpath', '//*[@id="validateCode"]')
+2021-01-15 15:30:58  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="c88ea16345d284b8aeb3f10fe0c61c42", element="9ae10b5d-98c1-4d64-a8c0-88b5588d2ce4")>元素成功！
+2021-01-15 15:30:58  INFO SeleniumUtils.py clear_data [ line:262 ] 清空输入框成功！
+2021-01-15 15:30:58  INFO SeleniumUtils.py input_text [ line:117 ] 给元素('xpath', '//*[@id="validateCode"]')输入文本内容：
+2021-01-15 15:30:58  INFO SeleniumUtils.py input_text [ line:120 ] 文本输入成功！
+2021-01-15 15:30:58  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="loginBtn"]')可见！
+2021-01-15 15:30:58  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2021-01-15 15:30:58.720765，结束等待时间：2021-01-15 15:30:58.720765，等待时长为：0:00:00！
+2021-01-15 15:30:58  INFO SeleniumUtils.py get_element [ line:64 ] 查找登录页面_点击登录按钮中的元素('xpath', '//*[@id="loginBtn"]')
+2021-01-15 15:30:58  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="c88ea16345d284b8aeb3f10fe0c61c42", element="ba2cef45-8198-4838-853e-e76fce41cb9c")>元素成功！
+2021-01-15 15:30:58  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '//*[@id="loginBtn"]')！
+2021-01-15 15:30:58  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="c88ea16345d284b8aeb3f10fe0c61c42", element="ba2cef45-8198-4838-853e-e76fce41cb9c")>成功！
+2021-01-15 15:31:00  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="form"]/div/div[1]/div')可见！
+2021-01-15 15:31:00  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2021-01-15 15:31:00.811923，结束等待时间：2021-01-15 15:31:00.811923，等待时长为：0:00:00！
+2021-01-15 15:31:00  INFO SeleniumUtils.py get_element [ line:64 ] 查找登录失败错误提示！中的元素('xpath', '//*[@id="form"]/div/div[1]/div')
+2021-01-15 15:31:00  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="c88ea16345d284b8aeb3f10fe0c61c42", element="4eab81cf-e0a9-4c9b-98b2-5deb62e228dd")>元素成功！
+2021-01-15 15:31:00  INFO SeleniumUtils.py get_element_text [ line:167 ] 获取元素('xpath', '//*[@id="form"]/div/div[1]/div')的文本值为：请填写账号！！
+2021-01-15 15:31:02  INFO test_1_login.py test_login_1_error [ line:53 ] *********登录用例：异常场景-登录失败*********
+2021-01-15 15:31:02  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="username"]')可见！
+2021-01-15 15:31:02  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2021-01-15 15:31:02.935255，结束等待时间：2021-01-15 15:31:02.935255，等待时长为：0:00:00！
+2021-01-15 15:31:02  INFO SeleniumUtils.py get_element [ line:64 ] 查找登录页面_输入用户名中的元素('xpath', '//*[@id="username"]')
+2021-01-15 15:31:02  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="c88ea16345d284b8aeb3f10fe0c61c42", element="7ff9bf37-a800-4c5d-8228-fbf6c938755d")>元素成功！
+2021-01-15 15:31:02  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="username"]')可见！
+2021-01-15 15:31:02  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2021-01-15 15:31:02.943263，结束等待时间：2021-01-15 15:31:02.943263，等待时长为：0:00:00！
+2021-01-15 15:31:02  INFO SeleniumUtils.py get_element [ line:64 ] 查找中的元素('xpath', '//*[@id="username"]')
+2021-01-15 15:31:02  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="c88ea16345d284b8aeb3f10fe0c61c42", element="7ff9bf37-a800-4c5d-8228-fbf6c938755d")>元素成功！
+2021-01-15 15:31:02  INFO SeleniumUtils.py clear_data [ line:262 ] 清空输入框成功！
+2021-01-15 15:31:02  INFO SeleniumUtils.py input_text [ line:117 ] 给元素('xpath', '//*[@id="username"]')输入文本内容：
+2021-01-15 15:31:03  INFO SeleniumUtils.py input_text [ line:120 ] 文本输入成功！
+2021-01-15 15:31:03  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="form"]/div/div[2]/input[2]')可见！
+2021-01-15 15:31:03  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2021-01-15 15:31:03.018034，结束等待时间：2021-01-15 15:31:03.018034，等待时长为：0:00:00！
+2021-01-15 15:31:03  INFO SeleniumUtils.py get_element [ line:64 ] 查找登录页面_输入密码中的元素('xpath', '//*[@id="form"]/div/div[2]/input[2]')
+2021-01-15 15:31:03  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="c88ea16345d284b8aeb3f10fe0c61c42", element="8ca3d338-884a-4d5b-ae32-862c3b03fd6d")>元素成功！
+2021-01-15 15:31:03  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="form"]/div/div[2]/input[2]')可见！
+2021-01-15 15:31:03  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2021-01-15 15:31:03.027010，结束等待时间：2021-01-15 15:31:03.027010，等待时长为：0:00:00！
+2021-01-15 15:31:03  INFO SeleniumUtils.py get_element [ line:64 ] 查找中的元素('xpath', '//*[@id="form"]/div/div[2]/input[2]')
+2021-01-15 15:31:03  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="c88ea16345d284b8aeb3f10fe0c61c42", element="8ca3d338-884a-4d5b-ae32-862c3b03fd6d")>元素成功！
+2021-01-15 15:31:03  INFO SeleniumUtils.py clear_data [ line:262 ] 清空输入框成功！
+2021-01-15 15:31:03  INFO SeleniumUtils.py input_text [ line:117 ] 给元素('xpath', '//*[@id="form"]/div/div[2]/input[2]')输入文本内容：
+2021-01-15 15:31:03  INFO SeleniumUtils.py input_text [ line:120 ] 文本输入成功！
+2021-01-15 15:31:03  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="validateCode"]')可见！
+2021-01-15 15:31:03  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2021-01-15 15:31:03.099815，结束等待时间：2021-01-15 15:31:03.099815，等待时长为：0:00:00！
+2021-01-15 15:31:03  INFO SeleniumUtils.py get_element [ line:64 ] 查找登录页面_输入验证码中的元素('xpath', '//*[@id="validateCode"]')
+2021-01-15 15:31:03  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="c88ea16345d284b8aeb3f10fe0c61c42", element="cfe7e161-0150-4bc4-a998-ce1c38ffd545")>元素成功！
+2021-01-15 15:31:03  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="validateCode"]')可见！
+2021-01-15 15:31:03  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2021-01-15 15:31:03.110787，结束等待时间：2021-01-15 15:31:03.110787，等待时长为：0:00:00！
+2021-01-15 15:31:03  INFO SeleniumUtils.py get_element [ line:64 ] 查找中的元素('xpath', '//*[@id="validateCode"]')
+2021-01-15 15:31:03  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="c88ea16345d284b8aeb3f10fe0c61c42", element="cfe7e161-0150-4bc4-a998-ce1c38ffd545")>元素成功！
+2021-01-15 15:31:03  INFO SeleniumUtils.py clear_data [ line:262 ] 清空输入框成功！
+2021-01-15 15:31:03  INFO SeleniumUtils.py input_text [ line:117 ] 给元素('xpath', '//*[@id="validateCode"]')输入文本内容：1111
+2021-01-15 15:31:03  INFO SeleniumUtils.py input_text [ line:120 ] 文本输入成功！
+2021-01-15 15:31:03  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="loginBtn"]')可见！
+2021-01-15 15:31:03  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2021-01-15 15:31:03.189575，结束等待时间：2021-01-15 15:31:03.189575，等待时长为：0:00:00！
+2021-01-15 15:31:03  INFO SeleniumUtils.py get_element [ line:64 ] 查找登录页面_点击登录按钮中的元素('xpath', '//*[@id="loginBtn"]')
+2021-01-15 15:31:03  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="c88ea16345d284b8aeb3f10fe0c61c42", element="e4d63715-012d-46a5-894f-7b1f1abb80c4")>元素成功！
+2021-01-15 15:31:03  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '//*[@id="loginBtn"]')！
+2021-01-15 15:31:03  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="c88ea16345d284b8aeb3f10fe0c61c42", element="e4d63715-012d-46a5-894f-7b1f1abb80c4")>成功！
+2021-01-15 15:31:05  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="form"]/div/div[1]/div')可见！
+2021-01-15 15:31:05  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2021-01-15 15:31:05.240181，结束等待时间：2021-01-15 15:31:05.240181，等待时长为：0:00:00！
+2021-01-15 15:31:05  INFO SeleniumUtils.py get_element [ line:64 ] 查找登录失败错误提示！中的元素('xpath', '//*[@id="form"]/div/div[1]/div')
+2021-01-15 15:31:05  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="c88ea16345d284b8aeb3f10fe0c61c42", element="ddf04cb2-7150-4955-bc76-fb6ba6db2616")>元素成功！
+2021-01-15 15:31:05  INFO SeleniumUtils.py get_element_text [ line:167 ] 获取元素('xpath', '//*[@id="form"]/div/div[1]/div')的文本值为：请填写账号！！
+2021-01-15 15:31:07  INFO test_1_login.py test_login_1_error [ line:53 ] *********登录用例：异常场景-登录失败*********
+2021-01-15 15:31:07  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="username"]')可见！
+2021-01-15 15:31:07  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2021-01-15 15:31:07.468582，结束等待时间：2021-01-15 15:31:07.468582，等待时长为：0:00:00！
+2021-01-15 15:31:07  INFO SeleniumUtils.py get_element [ line:64 ] 查找登录页面_输入用户名中的元素('xpath', '//*[@id="username"]')
+2021-01-15 15:31:07  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="c88ea16345d284b8aeb3f10fe0c61c42", element="22eae986-a826-4381-848a-979e7d7b6d2a")>元素成功！
+2021-01-15 15:31:07  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="username"]')可见！
+2021-01-15 15:31:07  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2021-01-15 15:31:07.480521，结束等待时间：2021-01-15 15:31:07.480521，等待时长为：0:00:00！
+2021-01-15 15:31:07  INFO SeleniumUtils.py get_element [ line:64 ] 查找中的元素('xpath', '//*[@id="username"]')
+2021-01-15 15:31:07  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="c88ea16345d284b8aeb3f10fe0c61c42", element="22eae986-a826-4381-848a-979e7d7b6d2a")>元素成功！
+2021-01-15 15:31:07  INFO SeleniumUtils.py clear_data [ line:262 ] 清空输入框成功！
+2021-01-15 15:31:07  INFO SeleniumUtils.py input_text [ line:117 ] 给元素('xpath', '//*[@id="username"]')输入文本内容：
+2021-01-15 15:31:07  INFO SeleniumUtils.py input_text [ line:120 ] 文本输入成功！
+2021-01-15 15:31:07  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="form"]/div/div[2]/input[2]')可见！
+2021-01-15 15:31:07  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2021-01-15 15:31:07.546344，结束等待时间：2021-01-15 15:31:07.546344，等待时长为：0:00:00！
+2021-01-15 15:31:07  INFO SeleniumUtils.py get_element [ line:64 ] 查找登录页面_输入密码中的元素('xpath', '//*[@id="form"]/div/div[2]/input[2]')
+2021-01-15 15:31:07  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="c88ea16345d284b8aeb3f10fe0c61c42", element="88ce8bb1-f384-498e-90ef-3b312cde3757")>元素成功！
+2021-01-15 15:31:07  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="form"]/div/div[2]/input[2]')可见！
+2021-01-15 15:31:07  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2021-01-15 15:31:07.555321，结束等待时间：2021-01-15 15:31:07.555321，等待时长为：0:00:00！
+2021-01-15 15:31:07  INFO SeleniumUtils.py get_element [ line:64 ] 查找中的元素('xpath', '//*[@id="form"]/div/div[2]/input[2]')
+2021-01-15 15:31:07  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="c88ea16345d284b8aeb3f10fe0c61c42", element="88ce8bb1-f384-498e-90ef-3b312cde3757")>元素成功！
+2021-01-15 15:31:07  INFO SeleniumUtils.py clear_data [ line:262 ] 清空输入框成功！
+2021-01-15 15:31:07  INFO SeleniumUtils.py input_text [ line:117 ] 给元素('xpath', '//*[@id="form"]/div/div[2]/input[2]')输入文本内容：12345@q
+2021-01-15 15:31:07  INFO SeleniumUtils.py input_text [ line:120 ] 文本输入成功！
+2021-01-15 15:31:07  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="validateCode"]')可见！
+2021-01-15 15:31:07  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2021-01-15 15:31:07.625135，结束等待时间：2021-01-15 15:31:07.625135，等待时长为：0:00:00！
+2021-01-15 15:31:07  INFO SeleniumUtils.py get_element [ line:64 ] 查找登录页面_输入验证码中的元素('xpath', '//*[@id="validateCode"]')
+2021-01-15 15:31:07  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="c88ea16345d284b8aeb3f10fe0c61c42", element="f9bd19c1-e47b-4176-bc90-f29133016414")>元素成功！
+2021-01-15 15:31:07  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="validateCode"]')可见！
+2021-01-15 15:31:07  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2021-01-15 15:31:07.636105，结束等待时间：2021-01-15 15:31:07.636105，等待时长为：0:00:00！
+2021-01-15 15:31:07  INFO SeleniumUtils.py get_element [ line:64 ] 查找中的元素('xpath', '//*[@id="validateCode"]')
+2021-01-15 15:31:07  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="c88ea16345d284b8aeb3f10fe0c61c42", element="f9bd19c1-e47b-4176-bc90-f29133016414")>元素成功！
+2021-01-15 15:31:07  INFO SeleniumUtils.py clear_data [ line:262 ] 清空输入框成功！
+2021-01-15 15:31:07  INFO SeleniumUtils.py input_text [ line:117 ] 给元素('xpath', '//*[@id="validateCode"]')输入文本内容：1111
+2021-01-15 15:31:07  INFO SeleniumUtils.py input_text [ line:120 ] 文本输入成功！
+2021-01-15 15:31:07  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="loginBtn"]')可见！
+2021-01-15 15:31:07  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2021-01-15 15:31:07.720879，结束等待时间：2021-01-15 15:31:07.720879，等待时长为：0:00:00！
+2021-01-15 15:31:07  INFO SeleniumUtils.py get_element [ line:64 ] 查找登录页面_点击登录按钮中的元素('xpath', '//*[@id="loginBtn"]')
+2021-01-15 15:31:07  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="c88ea16345d284b8aeb3f10fe0c61c42", element="b9288d74-ffc4-4620-b7a8-64111ae5c048")>元素成功！
+2021-01-15 15:31:07  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '//*[@id="loginBtn"]')！
+2021-01-15 15:31:07  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="c88ea16345d284b8aeb3f10fe0c61c42", element="b9288d74-ffc4-4620-b7a8-64111ae5c048")>成功！
+2021-01-15 15:35:48  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="username"]')可见！
+2021-01-15 15:35:48  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2021-01-15 15:35:48.647311，结束等待时间：2021-01-15 15:35:48.647311，等待时长为：0:00:00！
+2021-01-15 15:35:48  INFO SeleniumUtils.py get_element [ line:64 ] 查找登录页面_输入用户名中的元素('xpath', '//*[@id="username"]')
+2021-01-15 15:35:48  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="ceb0638154d767c6a2cdb08431201184", element="34ff6b94-b82e-434c-a23a-a9362e17b348")>元素成功！
+2021-01-15 15:35:48  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="username"]')可见！
+2021-01-15 15:35:48  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2021-01-15 15:35:48.659278，结束等待时间：2021-01-15 15:35:48.659278，等待时长为：0:00:00！
+2021-01-15 15:35:48  INFO SeleniumUtils.py get_element [ line:64 ] 查找中的元素('xpath', '//*[@id="username"]')
+2021-01-15 15:35:48  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="ceb0638154d767c6a2cdb08431201184", element="34ff6b94-b82e-434c-a23a-a9362e17b348")>元素成功！
+2021-01-15 15:35:48  INFO SeleniumUtils.py clear_data [ line:262 ] 清空输入框成功！
+2021-01-15 15:35:48  INFO SeleniumUtils.py input_text [ line:117 ] 给元素('xpath', '//*[@id="username"]')输入文本内容：65431011
+2021-01-15 15:35:48  INFO SeleniumUtils.py input_text [ line:120 ] 文本输入成功！
+2021-01-15 15:35:48  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="form"]/div/div[2]/input[2]')可见！
+2021-01-15 15:35:48  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2021-01-15 15:35:48.754025，结束等待时间：2021-01-15 15:35:48.754025，等待时长为：0:00:00！
+2021-01-15 15:35:48  INFO SeleniumUtils.py get_element [ line:64 ] 查找登录页面_输入密码中的元素('xpath', '//*[@id="form"]/div/div[2]/input[2]')
+2021-01-15 15:35:48  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="ceb0638154d767c6a2cdb08431201184", element="e74f7986-6213-44cc-b137-898415f2b76d")>元素成功！
+2021-01-15 15:35:48  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="form"]/div/div[2]/input[2]')可见！
+2021-01-15 15:35:48  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2021-01-15 15:35:48.765993，结束等待时间：2021-01-15 15:35:48.765993，等待时长为：0:00:00！
+2021-01-15 15:35:48  INFO SeleniumUtils.py get_element [ line:64 ] 查找中的元素('xpath', '//*[@id="form"]/div/div[2]/input[2]')
+2021-01-15 15:35:48  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="ceb0638154d767c6a2cdb08431201184", element="e74f7986-6213-44cc-b137-898415f2b76d")>元素成功！
+2021-01-15 15:35:48  INFO SeleniumUtils.py clear_data [ line:262 ] 清空输入框成功！
+2021-01-15 15:35:48  INFO SeleniumUtils.py input_text [ line:117 ] 给元素('xpath', '//*[@id="form"]/div/div[2]/input[2]')输入文本内容：1qaz@WSX
+2021-01-15 15:35:48  INFO SeleniumUtils.py input_text [ line:120 ] 文本输入成功！
+2021-01-15 15:35:48  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="validateCode"]')可见！
+2021-01-15 15:35:48  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2021-01-15 15:35:48.859640，结束等待时间：2021-01-15 15:35:48.859640，等待时长为：0:00:00！
+2021-01-15 15:35:48  INFO SeleniumUtils.py get_element [ line:64 ] 查找登录页面_输入验证码中的元素('xpath', '//*[@id="validateCode"]')
+2021-01-15 15:35:48  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="ceb0638154d767c6a2cdb08431201184", element="72974c78-794f-47b7-a27a-03b5e79a5179")>元素成功！
+2021-01-15 15:35:48  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="validateCode"]')可见！
+2021-01-15 15:35:48  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2021-01-15 15:35:48.871606，结束等待时间：2021-01-15 15:35:48.871606，等待时长为：0:00:00！
+2021-01-15 15:35:48  INFO SeleniumUtils.py get_element [ line:64 ] 查找中的元素('xpath', '//*[@id="validateCode"]')
+2021-01-15 15:35:48  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="ceb0638154d767c6a2cdb08431201184", element="72974c78-794f-47b7-a27a-03b5e79a5179")>元素成功！
+2021-01-15 15:35:48  INFO SeleniumUtils.py clear_data [ line:262 ] 清空输入框成功！
+2021-01-15 15:35:48  INFO SeleniumUtils.py input_text [ line:117 ] 给元素('xpath', '//*[@id="validateCode"]')输入文本内容：1111
+2021-01-15 15:35:48  INFO SeleniumUtils.py input_text [ line:120 ] 文本输入成功！
+2021-01-15 15:35:48  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="loginBtn"]')可见！
+2021-01-15 15:35:48  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2021-01-15 15:35:48.955382，结束等待时间：2021-01-15 15:35:48.955382，等待时长为：0:00:00！
+2021-01-15 15:35:48  INFO SeleniumUtils.py get_element [ line:64 ] 查找登录页面_点击登录按钮中的元素('xpath', '//*[@id="loginBtn"]')
+2021-01-15 15:35:48  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="ceb0638154d767c6a2cdb08431201184", element="60680780-4237-4241-92e5-c3a4b1c8f885")>元素成功！
+2021-01-15 15:35:48  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '//*[@id="loginBtn"]')！
+2021-01-15 15:35:51  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="ceb0638154d767c6a2cdb08431201184", element="60680780-4237-4241-92e5-c3a4b1c8f885")>成功！
+2021-01-15 15:35:51  INFO test_10_sendPersonality_email.py test_sendPEmail_2_success [ line:33 ] *********发送个性邮件：正常场景*********
+2021-01-15 15:35:54  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="upload"]')可见！
+2021-01-15 15:35:54  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2021-01-15 15:35:54.165998，结束等待时间：2021-01-15 15:35:54.165998，等待时长为：0:00:00！
+2021-01-15 15:35:54  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送个性邮件_选择模板中的元素('xpath', '//*[@id="upload"]')
+2021-01-15 15:35:54  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="ceb0638154d767c6a2cdb08431201184", element="6f224b29-3d12-4abc-a49e-69a7f7f7bc2b")>元素成功！
+2021-01-15 15:35:54  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="upload"]')可见！
+2021-01-15 15:35:54  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2021-01-15 15:35:54.174974，结束等待时间：2021-01-15 15:35:54.174974，等待时长为：0:00:00！
+2021-01-15 15:35:54  INFO SeleniumUtils.py get_element [ line:64 ] 查找中的元素('xpath', '//*[@id="upload"]')
+2021-01-15 15:35:54  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="ceb0638154d767c6a2cdb08431201184", element="6f224b29-3d12-4abc-a49e-69a7f7f7bc2b")>元素成功！
+2021-01-15 15:35:54  INFO SeleniumUtils.py clear_data [ line:262 ] 清空输入框成功！
+2021-01-15 15:35:54  INFO SeleniumUtils.py input_text [ line:117 ] 给元素('xpath', '//*[@id="upload"]')输入文本内容：D:\files\模板\gx2007excel.xlsx
+2021-01-15 15:35:54  INFO SeleniumUtils.py input_text [ line:120 ] 文本输入成功！
+2021-01-15 15:35:54  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="uploadMailTemplate"]')可见！
+2021-01-15 15:35:54  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2021-01-15 15:35:54.232819，结束等待时间：2021-01-15 15:35:54.232819，等待时长为：0:00:00！
+2021-01-15 15:35:54  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送个性邮件_导入中的元素('xpath', '//*[@id="uploadMailTemplate"]')
+2021-01-15 15:35:54  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="ceb0638154d767c6a2cdb08431201184", element="8793408d-c3ea-4dd9-b62c-8fa530fe0dfa")>元素成功！
+2021-01-15 15:35:54  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '//*[@id="uploadMailTemplate"]')！
+2021-01-15 15:35:54  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="ceb0638154d767c6a2cdb08431201184", element="8793408d-c3ea-4dd9-b62c-8fa530fe0dfa")>成功！
+2021-01-15 15:35:54  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="allTemplateView"]')可见！
+2021-01-15 15:35:54  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2021-01-15 15:35:54.313603，结束等待时间：2021-01-15 15:35:54.313603，等待时长为：0:00:00！
+2021-01-15 15:35:54  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送个性邮件_选择模板中的元素('xpath', '//*[@id="allTemplateView"]')
+2021-01-15 15:35:54  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="ceb0638154d767c6a2cdb08431201184", element="74d369dc-c3af-41b9-9c34-433010a95f3d")>元素成功！
+2021-01-15 15:35:54  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '//*[@id="allTemplateView"]')！
+2021-01-15 15:35:54  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="ceb0638154d767c6a2cdb08431201184", element="74d369dc-c3af-41b9-9c34-433010a95f3d")>成功！
+2021-01-15 16:00:49  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="username"]')可见！
+2021-01-15 16:00:49  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2021-01-15 16:00:49.687682，结束等待时间：2021-01-15 16:00:49.687682，等待时长为：0:00:00！
+2021-01-15 16:00:49  INFO SeleniumUtils.py get_element [ line:64 ] 查找登录页面_输入用户名中的元素('xpath', '//*[@id="username"]')
+2021-01-15 16:00:49  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="6b472028664a478dd625495302d8f947", element="e7c4a0a6-8ac5-445d-9d30-15221b064560")>元素成功！
+2021-01-15 16:00:49  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="username"]')可见！
+2021-01-15 16:00:49  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2021-01-15 16:00:49.703638，结束等待时间：2021-01-15 16:00:49.703638，等待时长为：0:00:00！
+2021-01-15 16:00:49  INFO SeleniumUtils.py get_element [ line:64 ] 查找中的元素('xpath', '//*[@id="username"]')
+2021-01-15 16:00:49  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="6b472028664a478dd625495302d8f947", element="e7c4a0a6-8ac5-445d-9d30-15221b064560")>元素成功！
+2021-01-15 16:00:49  INFO SeleniumUtils.py clear_data [ line:262 ] 清空输入框成功！
+2021-01-15 16:00:49  INFO SeleniumUtils.py input_text [ line:117 ] 给元素('xpath', '//*[@id="username"]')输入文本内容：65431011
+2021-01-15 16:00:49  INFO SeleniumUtils.py input_text [ line:120 ] 文本输入成功！
+2021-01-15 16:00:49  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="form"]/div/div[2]/input[2]')可见！
+2021-01-15 16:00:49  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2021-01-15 16:00:49.804370，结束等待时间：2021-01-15 16:00:49.804370，等待时长为：0:00:00！
+2021-01-15 16:00:49  INFO SeleniumUtils.py get_element [ line:64 ] 查找登录页面_输入密码中的元素('xpath', '//*[@id="form"]/div/div[2]/input[2]')
+2021-01-15 16:00:49  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="6b472028664a478dd625495302d8f947", element="b7e97207-9733-40aa-becf-bcb0332e2cf5")>元素成功！
+2021-01-15 16:00:49  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="form"]/div/div[2]/input[2]')可见！
+2021-01-15 16:00:49  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2021-01-15 16:00:49.813345，结束等待时间：2021-01-15 16:00:49.813345，等待时长为：0:00:00！
+2021-01-15 16:00:49  INFO SeleniumUtils.py get_element [ line:64 ] 查找中的元素('xpath', '//*[@id="form"]/div/div[2]/input[2]')
+2021-01-15 16:00:49  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="6b472028664a478dd625495302d8f947", element="b7e97207-9733-40aa-becf-bcb0332e2cf5")>元素成功！
+2021-01-15 16:00:49  INFO SeleniumUtils.py clear_data [ line:262 ] 清空输入框成功！
+2021-01-15 16:00:49  INFO SeleniumUtils.py input_text [ line:117 ] 给元素('xpath', '//*[@id="form"]/div/div[2]/input[2]')输入文本内容：1qaz@WSX
+2021-01-15 16:00:49  INFO SeleniumUtils.py input_text [ line:120 ] 文本输入成功！
+2021-01-15 16:00:49  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="validateCode"]')可见！
+2021-01-15 16:00:49  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2021-01-15 16:00:49.928039，结束等待时间：2021-01-15 16:00:49.928039，等待时长为：0:00:00！
+2021-01-15 16:00:49  INFO SeleniumUtils.py get_element [ line:64 ] 查找登录页面_输入验证码中的元素('xpath', '//*[@id="validateCode"]')
+2021-01-15 16:00:49  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="6b472028664a478dd625495302d8f947", element="4bcd132d-d035-417c-93e2-8339d7393da1")>元素成功！
+2021-01-15 16:00:49  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="validateCode"]')可见！
+2021-01-15 16:00:49  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2021-01-15 16:00:49.942999，结束等待时间：2021-01-15 16:00:49.942999，等待时长为：0:00:00！
+2021-01-15 16:00:49  INFO SeleniumUtils.py get_element [ line:64 ] 查找中的元素('xpath', '//*[@id="validateCode"]')
+2021-01-15 16:00:49  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="6b472028664a478dd625495302d8f947", element="4bcd132d-d035-417c-93e2-8339d7393da1")>元素成功！
+2021-01-15 16:00:49  INFO SeleniumUtils.py clear_data [ line:262 ] 清空输入框成功！
+2021-01-15 16:00:49  INFO SeleniumUtils.py input_text [ line:117 ] 给元素('xpath', '//*[@id="validateCode"]')输入文本内容：1111
+2021-01-15 16:00:50  INFO SeleniumUtils.py input_text [ line:120 ] 文本输入成功！
+2021-01-15 16:00:50  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="loginBtn"]')可见！
+2021-01-15 16:00:50  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2021-01-15 16:00:50.037746，结束等待时间：2021-01-15 16:00:50.037746，等待时长为：0:00:00！
+2021-01-15 16:00:50  INFO SeleniumUtils.py get_element [ line:64 ] 查找登录页面_点击登录按钮中的元素('xpath', '//*[@id="loginBtn"]')
+2021-01-15 16:00:50  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="6b472028664a478dd625495302d8f947", element="ac32927b-97c7-451d-9e61-5b7e7e3e66ba")>元素成功！
+2021-01-15 16:00:50  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '//*[@id="loginBtn"]')！
+2021-01-15 16:00:52  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="6b472028664a478dd625495302d8f947", element="ac32927b-97c7-451d-9e61-5b7e7e3e66ba")>成功！
+2021-01-15 16:00:52  INFO test_10_sendPersonality_email.py test_sendPEmail_2_success [ line:33 ] *********发送个性邮件：正常场景*********

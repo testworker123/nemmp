@@ -1,0 +1,365 @@
+2020-09-17 14:58:46  INFO test_16_sendGeneral_VideoMsg.py test_sendMakeMms_2_success [ line:44 ] *********发送彩信用例：制作彩信*********
+2020-09-17 14:59:26  INFO test_16_sendGeneral_VideoMsg.py test_sendMakeMms_2_success [ line:44 ] *********发送彩信用例：制作彩信*********
+2020-09-17 14:59:26  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="receiver"]')可见！
+2020-09-17 14:59:26  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 14:59:26.918824，结束等待时间：2020-09-17 14:59:26.918824，等待时长为：0:00:00！
+2020-09-17 14:59:26  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通视频短信_输入收件号码中的元素('xpath', '//*[@id="receiver"]')
+2020-09-17 14:59:26  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="7fbc14d85b981813072c7b7b04a5f538", element="58fa7342-aee6-40fb-a404-d93122cdb35d")>元素成功！
+2020-09-17 14:59:26  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="receiver"]')可见！
+2020-09-17 14:59:26  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 14:59:26.928797，结束等待时间：2020-09-17 14:59:26.928797，等待时长为：0:00:00！
+2020-09-17 14:59:26  INFO SeleniumUtils.py get_element [ line:64 ] 查找中的元素('xpath', '//*[@id="receiver"]')
+2020-09-17 14:59:26  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="7fbc14d85b981813072c7b7b04a5f538", element="58fa7342-aee6-40fb-a404-d93122cdb35d")>元素成功！
+2020-09-17 14:59:26  INFO SeleniumUtils.py clear_data [ line:262 ] 清空输入框成功！
+2020-09-17 14:59:26  INFO SeleniumUtils.py input_text [ line:117 ] 给元素('xpath', '//*[@id="receiver"]')输入文本内容：18722221111
+2020-09-17 14:59:27  INFO SeleniumUtils.py input_text [ line:120 ] 文本输入成功！
+2020-09-17 14:59:27  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[6]/a[1]')可见！
+2020-09-17 14:59:27  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 14:59:27.063438，结束等待时间：2020-09-17 14:59:27.063438，等待时长为：0:00:00！
+2020-09-17 14:59:27  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通视频短信_提取号码中的元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[6]/a[1]')
+2020-09-17 14:59:27  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="7fbc14d85b981813072c7b7b04a5f538", element="2b375ef4-5693-494a-b1af-c56ace2746e9")>元素成功！
+2020-09-17 14:59:27  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[6]/a[1]')！
+2020-09-17 14:59:27  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="7fbc14d85b981813072c7b7b04a5f538", element="2b375ef4-5693-494a-b1af-c56ace2746e9")>成功！
+2020-09-17 15:00:17  INFO test_16_sendGeneral_VideoMsg.py test_sendMakeMms_2_success [ line:44 ] *********发送彩信用例：制作彩信*********
+2020-09-17 15:00:17  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="receiver"]')可见！
+2020-09-17 15:00:17  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:00:17.444365，结束等待时间：2020-09-17 15:00:17.444365，等待时长为：0:00:00！
+2020-09-17 15:00:17  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通视频短信_输入收件号码中的元素('xpath', '//*[@id="receiver"]')
+2020-09-17 15:00:22  ERROR SeleniumUtils.py get_element [ line:71 ] 查找元素失败！
+Traceback (most recent call last):
+  File "D:\files\project\nemmp\nmmp_utils\selenium\SeleniumUtils.py", line 66, in get_element
+    ele = self.driver.find_element(*loc)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window
+  (Session info: chrome=85.0.4183.83)
+
+2020-09-17 15:00:25  INFO SeleniumUtils.py save_web_screenshot [ line:32 ] 网页截图成功！图片存储在：D:\files\project\nemmp\nmmp_manage\output/screenshots/2020-09-17 15_00_22-发送普通视频短信_输入收件号码.png!
+2020-09-17 15:00:58  INFO test_16_sendGeneral_VideoMsg.py test_sendMakeMms_2_success [ line:44 ] *********发送彩信用例：制作彩信*********
+2020-09-17 15:00:58  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="receiver"]')可见！
+2020-09-17 15:00:58  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:00:58.680762，结束等待时间：2020-09-17 15:00:58.680762，等待时长为：0:00:00！
+2020-09-17 15:00:58  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通视频短信_输入收件号码中的元素('xpath', '//*[@id="receiver"]')
+2020-09-17 15:00:58  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="12213dbc174c89cb906192f8870fa718", element="9748ce31-0644-4fb0-b160-9239ea4d6bae")>元素成功！
+2020-09-17 15:00:58  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="receiver"]')可见！
+2020-09-17 15:00:58  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:00:58.690763，结束等待时间：2020-09-17 15:00:58.690763，等待时长为：0:00:00！
+2020-09-17 15:00:58  INFO SeleniumUtils.py get_element [ line:64 ] 查找中的元素('xpath', '//*[@id="receiver"]')
+2020-09-17 15:00:58  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="12213dbc174c89cb906192f8870fa718", element="9748ce31-0644-4fb0-b160-9239ea4d6bae")>元素成功！
+2020-09-17 15:00:58  INFO SeleniumUtils.py clear_data [ line:262 ] 清空输入框成功！
+2020-09-17 15:00:58  INFO SeleniumUtils.py input_text [ line:117 ] 给元素('xpath', '//*[@id="receiver"]')输入文本内容：18722221111
+2020-09-17 15:00:58  INFO SeleniumUtils.py input_text [ line:120 ] 文本输入成功！
+2020-09-17 15:00:58  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[6]/a[1]')可见！
+2020-09-17 15:00:58  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:00:58.822384，结束等待时间：2020-09-17 15:00:58.822384，等待时长为：0:00:00！
+2020-09-17 15:00:58  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通视频短信_提取号码中的元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[6]/a[1]')
+2020-09-17 15:00:58  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="12213dbc174c89cb906192f8870fa718", element="54fe6afd-72d8-46a1-a226-f4630e3f63a2")>元素成功！
+2020-09-17 15:00:58  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[6]/a[1]')！
+2020-09-17 15:00:58  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="12213dbc174c89cb906192f8870fa718", element="54fe6afd-72d8-46a1-a226-f4630e3f63a2")>成功！
+2020-09-17 15:00:59  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="msgBoxId"]/div[3]/div/a')可见！
+2020-09-17 15:00:59  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:00:59.919494，结束等待时间：2020-09-17 15:00:59.919494，等待时长为：0:00:00！
+2020-09-17 15:00:59  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通视频短信_点击关闭弹窗中的元素('xpath', '//*[@id="msgBoxId"]/div[3]/div/a')
+2020-09-17 15:00:59  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="12213dbc174c89cb906192f8870fa718", element="ad720968-72fa-4987-8a48-512156a5967e")>元素成功！
+2020-09-17 15:00:59  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '//*[@id="msgBoxId"]/div[3]/div/a')！
+2020-09-17 15:00:59  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="12213dbc174c89cb906192f8870fa718", element="ad720968-72fa-4987-8a48-512156a5967e")>成功！
+2020-09-17 15:00:59  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[7]/div[2]/a')可见！
+2020-09-17 15:00:59  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:00:59.988283，结束等待时间：2020-09-17 15:00:59.988283，等待时长为：0:00:00！
+2020-09-17 15:00:59  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通视频短信_点击选择视频短信产品中的元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[7]/div[2]/a')
+2020-09-17 15:00:59  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="12213dbc174c89cb906192f8870fa718", element="ab8c5f92-7ff9-40dc-9e48-6e7611d7152f")>元素成功！
+2020-09-17 15:00:59  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[7]/div[2]/a')！
+2020-09-17 15:01:00  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="12213dbc174c89cb906192f8870fa718", element="ab8c5f92-7ff9-40dc-9e48-6e7611d7152f")>成功！
+2020-09-17 15:03:25  INFO test_16_sendGeneral_VideoMsg.py test_sendMakeMms_2_success [ line:44 ] *********发送彩信用例：制作彩信*********
+2020-09-17 15:03:25  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="receiver"]')可见！
+2020-09-17 15:03:25  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:03:25.760679，结束等待时间：2020-09-17 15:03:25.761676，等待时长为：0:00:00.000997！
+2020-09-17 15:03:25  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通视频短信_输入收件号码中的元素('xpath', '//*[@id="receiver"]')
+2020-09-17 15:03:25  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="b06831651508c0aa80627c3ccfd69fb3", element="f1112e5e-b76f-4700-b301-37a315f8c3db")>元素成功！
+2020-09-17 15:03:25  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="receiver"]')可见！
+2020-09-17 15:03:25  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:03:25.770652，结束等待时间：2020-09-17 15:03:25.770652，等待时长为：0:00:00！
+2020-09-17 15:03:25  INFO SeleniumUtils.py get_element [ line:64 ] 查找中的元素('xpath', '//*[@id="receiver"]')
+2020-09-17 15:03:25  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="b06831651508c0aa80627c3ccfd69fb3", element="f1112e5e-b76f-4700-b301-37a315f8c3db")>元素成功！
+2020-09-17 15:03:25  INFO SeleniumUtils.py clear_data [ line:262 ] 清空输入框成功！
+2020-09-17 15:03:25  INFO SeleniumUtils.py input_text [ line:117 ] 给元素('xpath', '//*[@id="receiver"]')输入文本内容：18722221111
+2020-09-17 15:03:25  INFO SeleniumUtils.py input_text [ line:120 ] 文本输入成功！
+2020-09-17 15:03:25  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[6]/a[1]')可见！
+2020-09-17 15:03:25  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:03:25.899309，结束等待时间：2020-09-17 15:03:25.899309，等待时长为：0:00:00！
+2020-09-17 15:03:25  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通视频短信_提取号码中的元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[6]/a[1]')
+2020-09-17 15:03:25  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="b06831651508c0aa80627c3ccfd69fb3", element="36f850bb-7bcc-4698-a9fa-776defe29346")>元素成功！
+2020-09-17 15:03:25  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[6]/a[1]')！
+2020-09-17 15:03:25  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="b06831651508c0aa80627c3ccfd69fb3", element="36f850bb-7bcc-4698-a9fa-776defe29346")>成功！
+2020-09-17 15:03:26  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="msgBoxId"]/div[3]/div/a')可见！
+2020-09-17 15:03:26  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:03:26.990420，结束等待时间：2020-09-17 15:03:26.990420，等待时长为：0:00:00！
+2020-09-17 15:03:26  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通视频短信_点击关闭弹窗中的元素('xpath', '//*[@id="msgBoxId"]/div[3]/div/a')
+2020-09-17 15:03:27  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="b06831651508c0aa80627c3ccfd69fb3", element="35de830b-1e8e-491b-8dbf-e70da14fa82b")>元素成功！
+2020-09-17 15:03:27  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '//*[@id="msgBoxId"]/div[3]/div/a')！
+2020-09-17 15:03:27  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="b06831651508c0aa80627c3ccfd69fb3", element="35de830b-1e8e-491b-8dbf-e70da14fa82b")>成功！
+2020-09-17 15:03:27  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[7]/div[2]/a')可见！
+2020-09-17 15:03:27  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:03:27.065191，结束等待时间：2020-09-17 15:03:27.065191，等待时长为：0:00:00！
+2020-09-17 15:03:27  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通视频短信_点击选择视频短信产品中的元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[7]/div[2]/a')
+2020-09-17 15:03:27  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="b06831651508c0aa80627c3ccfd69fb3", element="38d86ac6-23c8-4fe9-a16f-6c28c9b3f0fe")>元素成功！
+2020-09-17 15:03:27  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[7]/div[2]/a')！
+2020-09-17 15:03:27  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="b06831651508c0aa80627c3ccfd69fb3", element="38d86ac6-23c8-4fe9-a16f-6c28c9b3f0fe")>成功！
+2020-09-17 15:04:45  INFO test_16_sendGeneral_VideoMsg.py test_sendMakeMms_2_success [ line:44 ] *********发送彩信用例：制作彩信*********
+2020-09-17 15:04:45  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="receiver"]')可见！
+2020-09-17 15:04:45  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:04:45.997113，结束等待时间：2020-09-17 15:04:45.997113，等待时长为：0:00:00！
+2020-09-17 15:04:45  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通视频短信_输入收件号码中的元素('xpath', '//*[@id="receiver"]')
+2020-09-17 15:04:46  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="8d2e4c8fb2965b02e972731e3d79070d", element="225110f0-fe19-454d-afd6-3c4c0f43cd94")>元素成功！
+2020-09-17 15:04:46  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="receiver"]')可见！
+2020-09-17 15:04:46  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:04:46.008118，结束等待时间：2020-09-17 15:04:46.008118，等待时长为：0:00:00！
+2020-09-17 15:04:46  INFO SeleniumUtils.py get_element [ line:64 ] 查找中的元素('xpath', '//*[@id="receiver"]')
+2020-09-17 15:04:46  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="8d2e4c8fb2965b02e972731e3d79070d", element="225110f0-fe19-454d-afd6-3c4c0f43cd94")>元素成功！
+2020-09-17 15:04:46  INFO SeleniumUtils.py clear_data [ line:262 ] 清空输入框成功！
+2020-09-17 15:04:46  INFO SeleniumUtils.py input_text [ line:117 ] 给元素('xpath', '//*[@id="receiver"]')输入文本内容：18722221111
+2020-09-17 15:04:46  INFO SeleniumUtils.py input_text [ line:120 ] 文本输入成功！
+2020-09-17 15:04:46  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[6]/a[1]')可见！
+2020-09-17 15:04:46  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:04:46.136740，结束等待时间：2020-09-17 15:04:46.136740，等待时长为：0:00:00！
+2020-09-17 15:04:46  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通视频短信_提取号码中的元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[6]/a[1]')
+2020-09-17 15:04:46  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="8d2e4c8fb2965b02e972731e3d79070d", element="4b567fbd-e1c4-482c-b827-e0f92e4227c1")>元素成功！
+2020-09-17 15:04:46  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[6]/a[1]')！
+2020-09-17 15:04:46  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="8d2e4c8fb2965b02e972731e3d79070d", element="4b567fbd-e1c4-482c-b827-e0f92e4227c1")>成功！
+2020-09-17 15:04:47  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="msgBoxId"]/div[3]/div/a')可见！
+2020-09-17 15:04:47  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:04:47.232836，结束等待时间：2020-09-17 15:04:47.232836，等待时长为：0:00:00！
+2020-09-17 15:04:47  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通视频短信_点击关闭弹窗中的元素('xpath', '//*[@id="msgBoxId"]/div[3]/div/a')
+2020-09-17 15:04:47  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="8d2e4c8fb2965b02e972731e3d79070d", element="d0a813a4-ef8c-4915-b9c5-d6f656caf6b2")>元素成功！
+2020-09-17 15:04:47  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '//*[@id="msgBoxId"]/div[3]/div/a')！
+2020-09-17 15:04:47  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="8d2e4c8fb2965b02e972731e3d79070d", element="d0a813a4-ef8c-4915-b9c5-d6f656caf6b2")>成功！
+2020-09-17 15:04:47  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[7]/div[2]/a')可见！
+2020-09-17 15:04:47  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:04:47.305614，结束等待时间：2020-09-17 15:04:47.305614，等待时长为：0:00:00！
+2020-09-17 15:04:47  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通视频短信_点击选择视频短信产品中的元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[7]/div[2]/a')
+2020-09-17 15:04:47  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="8d2e4c8fb2965b02e972731e3d79070d", element="81e233f6-ff46-4ca0-9007-d828e5a091aa")>元素成功！
+2020-09-17 15:04:47  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[7]/div[2]/a')！
+2020-09-17 15:04:47  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="8d2e4c8fb2965b02e972731e3d79070d", element="81e233f6-ff46-4ca0-9007-d828e5a091aa")>成功！
+2020-09-17 15:04:48  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="table_content"]/tbody/tr[1]/td[1]/span')可见！
+2020-09-17 15:04:48  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:04:48.416642，结束等待时间：2020-09-17 15:04:48.416642，等待时长为：0:00:00！
+2020-09-17 15:04:48  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通视频短信_勾选复选框中的元素('xpath', '//*[@id="table_content"]/tbody/tr[1]/td[1]/span')
+2020-09-17 15:04:48  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="8d2e4c8fb2965b02e972731e3d79070d", element="dc577d42-782d-47e1-a53d-29d7ccd2193c")>元素成功！
+2020-09-17 15:04:48  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '//*[@id="table_content"]/tbody/tr[1]/td[1]/span')！
+2020-09-17 15:04:48  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="8d2e4c8fb2965b02e972731e3d79070d", element="dc577d42-782d-47e1-a53d-29d7ccd2193c")>成功！
+2020-09-17 15:04:48  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '/html/body/div[1]/div[1]/a[1]')可见！
+2020-09-17 15:04:48  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:04:48.491443，结束等待时间：2020-09-17 15:04:48.491443，等待时长为：0:00:00！
+2020-09-17 15:04:48  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通视频短信_确认选择中的元素('xpath', '/html/body/div[1]/div[1]/a[1]')
+2020-09-17 15:04:48  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="8d2e4c8fb2965b02e972731e3d79070d", element="fd01bbb7-91fc-4b59-aa04-c7dcef94c3a9")>元素成功！
+2020-09-17 15:04:48  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '/html/body/div[1]/div[1]/a[1]')！
+2020-09-17 15:04:48  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="8d2e4c8fb2965b02e972731e3d79070d", element="fd01bbb7-91fc-4b59-aa04-c7dcef94c3a9")>成功！
+2020-09-17 15:04:49  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[11]/a[1]')可见！
+2020-09-17 15:04:49  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:04:49.577612，结束等待时间：2020-09-17 15:04:49.577612，等待时长为：0:00:00！
+2020-09-17 15:04:49  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通视频短信_提交发送中的元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[11]/a[1]')
+2020-09-17 15:04:49  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="8d2e4c8fb2965b02e972731e3d79070d", element="633c02b3-7ba3-49c9-b797-23b66f7db3df")>元素成功！
+2020-09-17 15:04:49  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[11]/a[1]')！
+2020-09-17 15:04:49  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="8d2e4c8fb2965b02e972731e3d79070d", element="633c02b3-7ba3-49c9-b797-23b66f7db3df")>成功！
+2020-09-17 15:04:51  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="msgBoxId"]/div[3]/div/a[1]')可见！
+2020-09-17 15:04:51  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:04:51.927386，结束等待时间：2020-09-17 15:04:51.927386，等待时长为：0:00:00！
+2020-09-17 15:04:51  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通视频短信_点击确定中的元素('xpath', '//*[@id="msgBoxId"]/div[3]/div/a[1]')
+2020-09-17 15:04:51  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="8d2e4c8fb2965b02e972731e3d79070d", element="420ab00f-0c64-43a6-b524-fb5a92b8a91f")>元素成功！
+2020-09-17 15:04:51  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '//*[@id="msgBoxId"]/div[3]/div/a[1]')！
+2020-09-17 15:04:51  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="8d2e4c8fb2965b02e972731e3d79070d", element="420ab00f-0c64-43a6-b524-fb5a92b8a91f")>成功！
+2020-09-17 15:15:35  INFO test_16_sendGeneral_VideoMsg.py test_sendMakeMms_2_success [ line:44 ] *********发送彩信用例：制作彩信*********
+2020-09-17 15:15:35  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="receiver"]')可见！
+2020-09-17 15:15:35  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:15:35.494626，结束等待时间：2020-09-17 15:15:35.494626，等待时长为：0:00:00！
+2020-09-17 15:15:35  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通视频短信_输入收件号码中的元素('xpath', '//*[@id="receiver"]')
+2020-09-17 15:15:35  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="f900482d62b1f8af7008d0c1d5fa0fe5", element="24fc78fe-2063-4dba-8438-e2fd41a010a5")>元素成功！
+2020-09-17 15:15:35  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="receiver"]')可见！
+2020-09-17 15:15:35  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:15:35.503602，结束等待时间：2020-09-17 15:15:35.503602，等待时长为：0:00:00！
+2020-09-17 15:15:35  INFO SeleniumUtils.py get_element [ line:64 ] 查找中的元素('xpath', '//*[@id="receiver"]')
+2020-09-17 15:15:35  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="f900482d62b1f8af7008d0c1d5fa0fe5", element="24fc78fe-2063-4dba-8438-e2fd41a010a5")>元素成功！
+2020-09-17 15:15:35  INFO SeleniumUtils.py clear_data [ line:262 ] 清空输入框成功！
+2020-09-17 15:15:35  INFO SeleniumUtils.py input_text [ line:117 ] 给元素('xpath', '//*[@id="receiver"]')输入文本内容：18722221111
+2020-09-17 15:15:35  INFO SeleniumUtils.py input_text [ line:120 ] 文本输入成功！
+2020-09-17 15:15:35  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[6]/a[1]')可见！
+2020-09-17 15:15:35  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:15:35.638243，结束等待时间：2020-09-17 15:15:35.638243，等待时长为：0:00:00！
+2020-09-17 15:15:35  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通视频短信_提取号码中的元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[6]/a[1]')
+2020-09-17 15:15:35  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="f900482d62b1f8af7008d0c1d5fa0fe5", element="c015f58c-73bd-4356-b177-b40a7960bc64")>元素成功！
+2020-09-17 15:15:35  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[6]/a[1]')！
+2020-09-17 15:15:35  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="f900482d62b1f8af7008d0c1d5fa0fe5", element="c015f58c-73bd-4356-b177-b40a7960bc64")>成功！
+2020-09-17 15:15:36  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="msgBoxId"]/div[3]/div/a')可见！
+2020-09-17 15:15:36  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:15:36.733313，结束等待时间：2020-09-17 15:15:36.733313，等待时长为：0:00:00！
+2020-09-17 15:15:36  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通视频短信_点击关闭弹窗中的元素('xpath', '//*[@id="msgBoxId"]/div[3]/div/a')
+2020-09-17 15:15:36  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="f900482d62b1f8af7008d0c1d5fa0fe5", element="bf4a747d-bb61-4923-8eb3-2aa3b62e54fe")>元素成功！
+2020-09-17 15:15:36  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '//*[@id="msgBoxId"]/div[3]/div/a')！
+2020-09-17 15:15:36  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="f900482d62b1f8af7008d0c1d5fa0fe5", element="bf4a747d-bb61-4923-8eb3-2aa3b62e54fe")>成功！
+2020-09-17 15:15:36  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[7]/div[2]/a')可见！
+2020-09-17 15:15:36  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:15:36.807116，结束等待时间：2020-09-17 15:15:36.807116，等待时长为：0:00:00！
+2020-09-17 15:15:36  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通视频短信_点击选择视频短信产品中的元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[7]/div[2]/a')
+2020-09-17 15:15:36  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="f900482d62b1f8af7008d0c1d5fa0fe5", element="743444a4-6f2c-453e-a06d-c0f1dd19af10")>元素成功！
+2020-09-17 15:15:36  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[7]/div[2]/a')！
+2020-09-17 15:15:36  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="f900482d62b1f8af7008d0c1d5fa0fe5", element="743444a4-6f2c-453e-a06d-c0f1dd19af10")>成功！
+2020-09-17 15:15:37  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="table_content"]/tbody/tr[1]/td[1]/span')可见！
+2020-09-17 15:15:37  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:15:37.921137，结束等待时间：2020-09-17 15:15:37.921137，等待时长为：0:00:00！
+2020-09-17 15:15:37  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通视频短信_勾选复选框中的元素('xpath', '//*[@id="table_content"]/tbody/tr[1]/td[1]/span')
+2020-09-17 15:15:37  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="f900482d62b1f8af7008d0c1d5fa0fe5", element="b38f3e16-6d6c-4686-93c8-0292478b022c")>元素成功！
+2020-09-17 15:15:37  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '//*[@id="table_content"]/tbody/tr[1]/td[1]/span')！
+2020-09-17 15:15:37  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="f900482d62b1f8af7008d0c1d5fa0fe5", element="b38f3e16-6d6c-4686-93c8-0292478b022c")>成功！
+2020-09-17 15:15:37  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '/html/body/div[1]/div[1]/a[1]')可见！
+2020-09-17 15:15:37  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:15:37.996935，结束等待时间：2020-09-17 15:15:37.996935，等待时长为：0:00:00！
+2020-09-17 15:15:37  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通视频短信_确认选择中的元素('xpath', '/html/body/div[1]/div[1]/a[1]')
+2020-09-17 15:15:38  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="f900482d62b1f8af7008d0c1d5fa0fe5", element="bfaa8a8c-9854-4c33-8224-c96d54457896")>元素成功！
+2020-09-17 15:15:38  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '/html/body/div[1]/div[1]/a[1]')！
+2020-09-17 15:15:38  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="f900482d62b1f8af7008d0c1d5fa0fe5", element="bfaa8a8c-9854-4c33-8224-c96d54457896")>成功！
+2020-09-17 15:15:39  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[11]/a[1]')可见！
+2020-09-17 15:15:39  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:15:39.099006，结束等待时间：2020-09-17 15:15:39.100004，等待时长为：0:00:00.000998！
+2020-09-17 15:15:39  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通视频短信_提交发送中的元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[11]/a[1]')
+2020-09-17 15:15:39  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="f900482d62b1f8af7008d0c1d5fa0fe5", element="78c3e0c6-0dd0-483d-b79d-9b1788a693ea")>元素成功！
+2020-09-17 15:15:39  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[11]/a[1]')！
+2020-09-17 15:15:39  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="f900482d62b1f8af7008d0c1d5fa0fe5", element="78c3e0c6-0dd0-483d-b79d-9b1788a693ea")>成功！
+2020-09-17 15:15:41  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="msgBoxId"]/div[3]/div/a[1]')可见！
+2020-09-17 15:15:41  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:15:41.214367，结束等待时间：2020-09-17 15:15:41.214367，等待时长为：0:00:00！
+2020-09-17 15:15:41  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通视频短信_点击确定中的元素('xpath', '//*[@id="msgBoxId"]/div[3]/div/a[1]')
+2020-09-17 15:15:41  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="f900482d62b1f8af7008d0c1d5fa0fe5", element="166286ce-6393-46d7-8ca2-0d21da7c441a")>元素成功！
+2020-09-17 15:15:41  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '//*[@id="msgBoxId"]/div[3]/div/a[1]')！
+2020-09-17 15:15:41  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="f900482d62b1f8af7008d0c1d5fa0fe5", element="166286ce-6393-46d7-8ca2-0d21da7c441a")>成功！
+2020-09-17 15:17:36  INFO test_15_sendGeneral_Mms.py test_sendMakeMms_2_success [ line:44 ] *********发送彩信用例：制作彩信*********
+2020-09-17 15:17:36  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="receiver"]')可见！
+2020-09-17 15:17:36  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:17:36.218866，结束等待时间：2020-09-17 15:17:36.218866，等待时长为：0:00:00！
+2020-09-17 15:17:36  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通彩信_收件号码中的元素('xpath', '//*[@id="receiver"]')
+2020-09-17 15:17:36  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="b10c89afd89aaac70052a9ace195fd77", element="466c8ac6-943c-47e9-bb88-8b924d9593fc")>元素成功！
+2020-09-17 15:17:36  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="receiver"]')可见！
+2020-09-17 15:17:36  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:17:36.228840，结束等待时间：2020-09-17 15:17:36.228840，等待时长为：0:00:00！
+2020-09-17 15:17:36  INFO SeleniumUtils.py get_element [ line:64 ] 查找中的元素('xpath', '//*[@id="receiver"]')
+2020-09-17 15:17:36  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="b10c89afd89aaac70052a9ace195fd77", element="466c8ac6-943c-47e9-bb88-8b924d9593fc")>元素成功！
+2020-09-17 15:17:36  INFO SeleniumUtils.py clear_data [ line:262 ] 清空输入框成功！
+2020-09-17 15:17:36  INFO SeleniumUtils.py input_text [ line:117 ] 给元素('xpath', '//*[@id="receiver"]')输入文本内容：18722221111
+2020-09-17 15:17:36  INFO SeleniumUtils.py input_text [ line:120 ] 文本输入成功！
+2020-09-17 15:17:36  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[6]/a[1]')可见！
+2020-09-17 15:17:36  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:17:36.361485，结束等待时间：2020-09-17 15:17:36.361485，等待时长为：0:00:00！
+2020-09-17 15:17:36  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通彩信_提取号码中的元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[6]/a[1]')
+2020-09-17 15:17:36  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="b10c89afd89aaac70052a9ace195fd77", element="85c944df-866f-4ac3-910c-3fd7d63750b6")>元素成功！
+2020-09-17 15:17:36  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[6]/a[1]')！
+2020-09-17 15:17:36  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="b10c89afd89aaac70052a9ace195fd77", element="85c944df-866f-4ac3-910c-3fd7d63750b6")>成功！
+2020-09-17 15:17:37  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="msgBoxId"]/div[3]/div/a')可见！
+2020-09-17 15:17:37  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:17:37.456617，结束等待时间：2020-09-17 15:17:37.456617，等待时长为：0:00:00！
+2020-09-17 15:17:37  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通彩信_关闭弹窗中的元素('xpath', '//*[@id="msgBoxId"]/div[3]/div/a')
+2020-09-17 15:17:37  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="b10c89afd89aaac70052a9ace195fd77", element="6ad0045c-9321-42c7-969f-0f0605ffeb88")>元素成功！
+2020-09-17 15:17:37  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '//*[@id="msgBoxId"]/div[3]/div/a')！
+2020-09-17 15:17:37  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="b10c89afd89aaac70052a9ace195fd77", element="6ad0045c-9321-42c7-969f-0f0605ffeb88")>成功！
+2020-09-17 15:17:37  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[7]/div[2]/a')可见！
+2020-09-17 15:17:37  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:17:37.528398，结束等待时间：2020-09-17 15:17:37.528398，等待时长为：0:00:00！
+2020-09-17 15:17:37  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通彩信_选择彩信产品中的元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[7]/div[2]/a')
+2020-09-17 15:17:37  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="b10c89afd89aaac70052a9ace195fd77", element="fc3a0c23-b899-4c1d-b404-d8d4c4cb9b30")>元素成功！
+2020-09-17 15:17:37  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[7]/div[2]/a')！
+2020-09-17 15:17:37  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="b10c89afd89aaac70052a9ace195fd77", element="fc3a0c23-b899-4c1d-b404-d8d4c4cb9b30")>成功！
+2020-09-17 15:17:38  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="table_content"]/tbody/tr[1]/td[1]/span')可见！
+2020-09-17 15:17:38  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:17:38.632446，结束等待时间：2020-09-17 15:17:38.632446，等待时长为：0:00:00！
+2020-09-17 15:17:38  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通彩信_勾选彩信产品中的元素('xpath', '//*[@id="table_content"]/tbody/tr[1]/td[1]/span')
+2020-09-17 15:17:39  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="b10c89afd89aaac70052a9ace195fd77", element="167b2755-e6a7-4c8e-a780-09d81969aa30")>元素成功！
+2020-09-17 15:17:39  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '//*[@id="table_content"]/tbody/tr[1]/td[1]/span')！
+2020-09-17 15:17:39  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="b10c89afd89aaac70052a9ace195fd77", element="167b2755-e6a7-4c8e-a780-09d81969aa30")>成功！
+2020-09-17 15:17:39  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '/html/body/div[1]/div[1]/a[1]')可见！
+2020-09-17 15:17:39  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:17:39.211904，结束等待时间：2020-09-17 15:17:39.211904，等待时长为：0:00:00！
+2020-09-17 15:17:39  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通彩信_确认选择中的元素('xpath', '/html/body/div[1]/div[1]/a[1]')
+2020-09-17 15:17:39  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="b10c89afd89aaac70052a9ace195fd77", element="a5479cbb-5ac4-4688-86ce-64a6d0d77ec0")>元素成功！
+2020-09-17 15:17:39  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '/html/body/div[1]/div[1]/a[1]')！
+2020-09-17 15:17:39  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="b10c89afd89aaac70052a9ace195fd77", element="a5479cbb-5ac4-4688-86ce-64a6d0d77ec0")>成功！
+2020-09-17 15:17:40  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[10]/div[2]/div[1]/span[1]')可见！
+2020-09-17 15:17:40  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:17:40.304996，结束等待时间：2020-09-17 15:17:40.304996，等待时长为：0:00:00！
+2020-09-17 15:17:40  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通彩信_立即发送中的元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[10]/div[2]/div[1]/span[1]')
+2020-09-17 15:17:40  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="b10c89afd89aaac70052a9ace195fd77", element="1251b512-85bc-4a87-b40b-7105140b2b1b")>元素成功！
+2020-09-17 15:17:40  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[10]/div[2]/div[1]/span[1]')！
+2020-09-17 15:17:40  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="b10c89afd89aaac70052a9ace195fd77", element="1251b512-85bc-4a87-b40b-7105140b2b1b")>成功！
+2020-09-17 15:17:40  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[12]/a[1]')可见！
+2020-09-17 15:17:40  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:17:40.366831，结束等待时间：2020-09-17 15:17:40.366831，等待时长为：0:00:00！
+2020-09-17 15:17:40  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通彩信_提交发送中的元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[12]/a[1]')
+2020-09-17 15:17:40  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="b10c89afd89aaac70052a9ace195fd77", element="8a58a8f9-bc36-4be6-810d-f62196ad060e")>元素成功！
+2020-09-17 15:17:40  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[12]/a[1]')！
+2020-09-17 15:17:40  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="b10c89afd89aaac70052a9ace195fd77", element="8a58a8f9-bc36-4be6-810d-f62196ad060e")>成功！
+2020-09-17 15:17:42  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="msgBoxId"]/div[3]/div/a[1]')可见！
+2020-09-17 15:17:42  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:17:42.444311，结束等待时间：2020-09-17 15:17:42.444311，等待时长为：0:00:00！
+2020-09-17 15:17:42  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通彩信_确认中的元素('xpath', '//*[@id="msgBoxId"]/div[3]/div/a[1]')
+2020-09-17 15:17:42  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="b10c89afd89aaac70052a9ace195fd77", element="fe4a3f45-62e4-4896-8fa6-c8da47ac0859")>元素成功！
+2020-09-17 15:17:42  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '//*[@id="msgBoxId"]/div[3]/div/a[1]')！
+2020-09-17 15:17:42  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="b10c89afd89aaac70052a9ace195fd77", element="fe4a3f45-62e4-4896-8fa6-c8da47ac0859")>成功！
+2020-09-17 15:22:44  INFO test_15_sendGeneral_Mms.py test_sendMakeMms_2_success [ line:44 ] *********发送彩信用例：制作彩信*********
+2020-09-17 15:22:44  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="receiver"]')可见！
+2020-09-17 15:22:44  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:22:44.998932，结束等待时间：2020-09-17 15:22:44.998932，等待时长为：0:00:00！
+2020-09-17 15:22:44  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通彩信_收件号码中的元素('xpath', '//*[@id="receiver"]')
+2020-09-17 15:22:45  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="745fa9237d2d965c6fcbcfb42d28203c", element="1b47fcc2-780b-4938-b6b5-a4bd162dee37")>元素成功！
+2020-09-17 15:22:45  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="receiver"]')可见！
+2020-09-17 15:22:45  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:22:45.008904，结束等待时间：2020-09-17 15:22:45.008904，等待时长为：0:00:00！
+2020-09-17 15:22:45  INFO SeleniumUtils.py get_element [ line:64 ] 查找中的元素('xpath', '//*[@id="receiver"]')
+2020-09-17 15:22:45  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="745fa9237d2d965c6fcbcfb42d28203c", element="1b47fcc2-780b-4938-b6b5-a4bd162dee37")>元素成功！
+2020-09-17 15:22:45  INFO SeleniumUtils.py clear_data [ line:262 ] 清空输入框成功！
+2020-09-17 15:22:45  INFO SeleniumUtils.py input_text [ line:117 ] 给元素('xpath', '//*[@id="receiver"]')输入文本内容：18722221111
+2020-09-17 15:22:45  INFO SeleniumUtils.py input_text [ line:120 ] 文本输入成功！
+2020-09-17 15:22:45  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[6]/a[1]')可见！
+2020-09-17 15:22:45  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:22:45.138558，结束等待时间：2020-09-17 15:22:45.138558，等待时长为：0:00:00！
+2020-09-17 15:22:45  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通彩信_提取号码中的元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[6]/a[1]')
+2020-09-17 15:22:45  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="745fa9237d2d965c6fcbcfb42d28203c", element="eee446fb-2941-40c2-8008-0199bfe3e405")>元素成功！
+2020-09-17 15:22:45  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[6]/a[1]')！
+2020-09-17 15:22:45  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="745fa9237d2d965c6fcbcfb42d28203c", element="eee446fb-2941-40c2-8008-0199bfe3e405")>成功！
+2020-09-17 15:22:46  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="msgBoxId"]/div[3]/div/a')可见！
+2020-09-17 15:22:46  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:22:46.233630，结束等待时间：2020-09-17 15:22:46.233630，等待时长为：0:00:00！
+2020-09-17 15:22:46  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通彩信_关闭弹窗中的元素('xpath', '//*[@id="msgBoxId"]/div[3]/div/a')
+2020-09-17 15:22:46  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="745fa9237d2d965c6fcbcfb42d28203c", element="f57a2b2c-0745-4422-95bc-6a82abe3b484")>元素成功！
+2020-09-17 15:22:46  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '//*[@id="msgBoxId"]/div[3]/div/a')！
+2020-09-17 15:22:46  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="745fa9237d2d965c6fcbcfb42d28203c", element="f57a2b2c-0745-4422-95bc-6a82abe3b484")>成功！
+2020-09-17 15:22:46  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[7]/div[2]/a')可见！
+2020-09-17 15:22:46  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:22:46.305439，结束等待时间：2020-09-17 15:22:46.305439，等待时长为：0:00:00！
+2020-09-17 15:22:46  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通彩信_选择彩信产品中的元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[7]/div[2]/a')
+2020-09-17 15:22:46  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="745fa9237d2d965c6fcbcfb42d28203c", element="f82c6f97-5b0e-4f85-a0fb-0f86b9daa406")>元素成功！
+2020-09-17 15:22:46  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[7]/div[2]/a')！
+2020-09-17 15:22:46  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="745fa9237d2d965c6fcbcfb42d28203c", element="f82c6f97-5b0e-4f85-a0fb-0f86b9daa406")>成功！
+2020-09-17 15:22:47  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="table_content"]/tbody/tr[1]/td[1]/span')可见！
+2020-09-17 15:22:47  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:22:47.426459，结束等待时间：2020-09-17 15:22:47.426459，等待时长为：0:00:00！
+2020-09-17 15:22:47  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通彩信_勾选彩信产品中的元素('xpath', '//*[@id="table_content"]/tbody/tr[1]/td[1]/span')
+2020-09-17 15:22:47  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="745fa9237d2d965c6fcbcfb42d28203c", element="eb9798de-6ac1-4859-8fae-b2cb6ffb3232")>元素成功！
+2020-09-17 15:22:47  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '//*[@id="table_content"]/tbody/tr[1]/td[1]/span')！
+2020-09-17 15:22:47  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="745fa9237d2d965c6fcbcfb42d28203c", element="eb9798de-6ac1-4859-8fae-b2cb6ffb3232")>成功！
+2020-09-17 15:22:47  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '/html/body/div[1]/div[1]/a[1]')可见！
+2020-09-17 15:22:47  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:22:47.498269，结束等待时间：2020-09-17 15:22:47.498269，等待时长为：0:00:00！
+2020-09-17 15:22:47  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通彩信_确认选择中的元素('xpath', '/html/body/div[1]/div[1]/a[1]')
+2020-09-17 15:22:47  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="745fa9237d2d965c6fcbcfb42d28203c", element="cbdc9cd2-1d90-46b6-9a89-cf73ef666ead")>元素成功！
+2020-09-17 15:22:47  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '/html/body/div[1]/div[1]/a[1]')！
+2020-09-17 15:22:47  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="745fa9237d2d965c6fcbcfb42d28203c", element="cbdc9cd2-1d90-46b6-9a89-cf73ef666ead")>成功！
+2020-09-17 15:22:48  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[10]/div[2]/div[1]/span[1]')可见！
+2020-09-17 15:22:48  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:22:48.588399，结束等待时间：2020-09-17 15:22:48.588399，等待时长为：0:00:00！
+2020-09-17 15:22:48  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通彩信_立即发送中的元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[10]/div[2]/div[1]/span[1]')
+2020-09-17 15:22:48  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="745fa9237d2d965c6fcbcfb42d28203c", element="81aaa904-edb1-443c-97e3-f790476d3ab2")>元素成功！
+2020-09-17 15:22:48  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[10]/div[2]/div[1]/span[1]')！
+2020-09-17 15:22:48  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="745fa9237d2d965c6fcbcfb42d28203c", element="81aaa904-edb1-443c-97e3-f790476d3ab2")>成功！
+2020-09-17 15:22:48  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[12]/a[1]')可见！
+2020-09-17 15:22:48  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:22:48.650235，结束等待时间：2020-09-17 15:22:48.650235，等待时长为：0:00:00！
+2020-09-17 15:22:48  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通彩信_提交发送中的元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[12]/a[1]')
+2020-09-17 15:22:48  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="745fa9237d2d965c6fcbcfb42d28203c", element="f7e99dbe-a999-4d8d-a753-528120a1d07d")>元素成功！
+2020-09-17 15:22:48  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '//*[@id="receiverForm"]/div[1]/div[3]/div[12]/a[1]')！
+2020-09-17 15:22:48  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="745fa9237d2d965c6fcbcfb42d28203c", element="f7e99dbe-a999-4d8d-a753-528120a1d07d")>成功！
+2020-09-17 15:22:50  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="msgBoxId"]/div[3]/div/a[1]')可见！
+2020-09-17 15:22:50  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:22:50.937199，结束等待时间：2020-09-17 15:22:50.937199，等待时长为：0:00:00！
+2020-09-17 15:22:50  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送普通彩信_确认中的元素('xpath', '//*[@id="msgBoxId"]/div[3]/div/a[1]')
+2020-09-17 15:22:50  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="745fa9237d2d965c6fcbcfb42d28203c", element="69a93102-5ebb-4f34-bda5-53b42d842f3d")>元素成功！
+2020-09-17 15:22:50  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '//*[@id="msgBoxId"]/div[3]/div/a[1]')！
+2020-09-17 15:22:50  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="745fa9237d2d965c6fcbcfb42d28203c", element="69a93102-5ebb-4f34-bda5-53b42d842f3d")>成功！
+2020-09-17 15:30:23  INFO test_14_sendMake_mms.py test_sendMakeMms_2_success [ line:46 ] *********发送彩信用例：制作彩信*********
+2020-09-17 15:30:23  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="cxtitle"]')可见！
+2020-09-17 15:30:23  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:30:23.333411，结束等待时间：2020-09-17 15:30:23.333411，等待时长为：0:00:00！
+2020-09-17 15:30:23  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送彩信_制作彩信标题中的元素('xpath', '//*[@id="cxtitle"]')
+2020-09-17 15:30:23  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="73545263746ac93707c22cd1870498b3", element="9d87224e-b75d-4f2c-b0d9-8437259973f8")>元素成功！
+2020-09-17 15:30:23  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="cxtitle"]')可见！
+2020-09-17 15:30:23  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:30:23.344383，结束等待时间：2020-09-17 15:30:23.344383，等待时长为：0:00:00！
+2020-09-17 15:30:23  INFO SeleniumUtils.py get_element [ line:64 ] 查找中的元素('xpath', '//*[@id="cxtitle"]')
+2020-09-17 15:30:23  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="73545263746ac93707c22cd1870498b3", element="9d87224e-b75d-4f2c-b0d9-8437259973f8")>元素成功！
+2020-09-17 15:30:23  INFO SeleniumUtils.py clear_data [ line:262 ] 清空输入框成功！
+2020-09-17 15:30:23  INFO SeleniumUtils.py input_text [ line:117 ] 给元素('xpath', '//*[@id="cxtitle"]')输入文本内容：节日快乐
+2020-09-17 15:30:23  INFO SeleniumUtils.py input_text [ line:120 ] 文本输入成功！
+2020-09-17 15:30:23  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="cxcontent"]')可见！
+2020-09-17 15:30:23  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:30:23.458079，结束等待时间：2020-09-17 15:30:23.458079，等待时长为：0:00:00！
+2020-09-17 15:30:23  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送彩信_制作彩信文字中的元素('xpath', '//*[@id="cxcontent"]')
+2020-09-17 15:30:23  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="73545263746ac93707c22cd1870498b3", element="2872611f-a3e1-413e-a830-8c553c0f7348")>元素成功！
+2020-09-17 15:30:23  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="cxcontent"]')可见！
+2020-09-17 15:30:23  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:30:23.470046，结束等待时间：2020-09-17 15:30:23.470046，等待时长为：0:00:00！
+2020-09-17 15:30:23  INFO SeleniumUtils.py get_element [ line:64 ] 查找中的元素('xpath', '//*[@id="cxcontent"]')
+2020-09-17 15:30:23  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="73545263746ac93707c22cd1870498b3", element="2872611f-a3e1-413e-a830-8c553c0f7348")>元素成功！
+2020-09-17 15:30:23  INFO SeleniumUtils.py clear_data [ line:262 ] 清空输入框成功！
+2020-09-17 15:30:23  INFO SeleniumUtils.py input_text [ line:117 ] 给元素('xpath', '//*[@id="cxcontent"]')输入文本内容：中秋节快乐呀！
+2020-09-17 15:30:23  INFO SeleniumUtils.py input_text [ line:120 ] 文本输入成功！
+2020-09-17 15:30:23  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="upload"]')可见！
+2020-09-17 15:30:23  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:30:23.566788，结束等待时间：2020-09-17 15:30:23.566788，等待时长为：0:00:00！
+2020-09-17 15:30:23  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送彩信_制作彩信上传本地文件中的元素('xpath', '//*[@id="upload"]')
+2020-09-17 15:30:23  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="73545263746ac93707c22cd1870498b3", element="7222a865-8e1a-40da-aee2-21be1d00273a")>元素成功！
+2020-09-17 15:30:23  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '//*[@id="upload"]')可见！
+2020-09-17 15:30:23  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:30:23.576761，结束等待时间：2020-09-17 15:30:23.576761，等待时长为：0:00:00！
+2020-09-17 15:30:23  INFO SeleniumUtils.py get_element [ line:64 ] 查找中的元素('xpath', '//*[@id="upload"]')
+2020-09-17 15:30:23  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="73545263746ac93707c22cd1870498b3", element="7222a865-8e1a-40da-aee2-21be1d00273a")>元素成功！
+2020-09-17 15:30:23  INFO SeleniumUtils.py clear_data [ line:262 ] 清空输入框成功！
+2020-09-17 15:30:23  INFO SeleniumUtils.py input_text [ line:117 ] 给元素('xpath', '//*[@id="upload"]')输入文本内容：D:\files\images\u=2655716706,3663934570&fm=26&gp=0.jpg
+2020-09-17 15:30:23  INFO SeleniumUtils.py input_text [ line:120 ] 文本输入成功！
+2020-09-17 15:30:24  INFO SeleniumUtils.py wait_eleVisible [ line:39 ] 等待元素('xpath', '/html/body/div[4]/a[1]')可见！
+2020-09-17 15:30:24  INFO SeleniumUtils.py wait_eleVisible [ line:47 ] 等待元素成功！开始等待时间：2020-09-17 15:30:24.640943，结束等待时间：2020-09-17 15:30:24.640943，等待时长为：0:00:00！
+2020-09-17 15:30:24  INFO SeleniumUtils.py get_element [ line:64 ] 查找发送彩信_制作彩信立即保存中的元素('xpath', '/html/body/div[4]/a[1]')
+2020-09-17 15:30:24  INFO SeleniumUtils.py get_element [ line:67 ] 查找<selenium.webdriver.remote.webelement.WebElement (session="73545263746ac93707c22cd1870498b3", element="c7bca508-6215-4f38-9ee3-e7c281f30f2c")>元素成功！
+2020-09-17 15:30:24  INFO SeleniumUtils.py click_element [ line:90 ] 点击元素('xpath', '/html/body/div[4]/a[1]')！
+2020-09-17 15:30:24  INFO SeleniumUtils.py click_element [ line:93 ] 点击元素<selenium.webdriver.remote.webelement.WebElement (session="73545263746ac93707c22cd1870498b3", element="c7bca508-6215-4f38-9ee3-e7c281f30f2c")>成功！
